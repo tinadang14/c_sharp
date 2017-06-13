@@ -1,0 +1,8 @@
+C:\Users\tinad\Desktop\DojoAssignments\csharp\chachi\bin\Debug\netcoreapp1.1\chachi.deps.json
+C:\Users\tinad\Desktop\DojoAssignments\csharp\chachi\bin\Debug\netcoreapp1.1\chachi.runtimeconfig.json
+C:\Users\tinad\Desktop\DojoAssignments\csharp\chachi\bin\Debug\netcoreapp1.1\chachi.runtimeconfig.dev.json
+C:\Users\tinad\Desktop\DojoAssignments\csharp\chachi\bin\Debug\netcoreapp1.1\chachi.dll
+C:\Users\tinad\Desktop\DojoAssignments\csharp\chachi\bin\Debug\netcoreapp1.1\chachi.pdb
+C:\Users\tinad\Desktop\DojoAssignments\csharp\chachi\obj\Debug\netcoreapp1.1\chachi.AssemblyInfo.cs
+C:\Users\tinad\Desktop\DojoAssignments\csharp\chachi\obj\Debug\netcoreapp1.1\chachi.dll
+C:\Users\tinad\Desktop\DojoAssignments\csharp\chachi\obj\Debug\netcoreapp1.1\chachi.pdb

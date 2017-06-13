@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tina's ChaChi</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="status">
+            <h3 class="@ViewBag.Hstat">Fullness: @ViewBag.Fullness</h3>
+            <h3 class="@ViewBag.Fstat">Happiness: @ViewBag.Happiness</h3>
+            <h3 class="@ViewBag.Meals">Meals: @ViewBag.Meals</h3>
+            <h3 class="@ViewBag.Estat">Energy: @ViewBag.Energy</h3>
+        </div>
+
+        @{
+            if(ViewBag.Happiness > 1)
+            {
+                <img id="bear" src="~/images/shiba.jpg" alt="">
+            }
+            if(ViewBag.Happiness < 1 || ViewBag.Fullness < 1)
+            {
+                <h1>CHACHIIIIII</h1>
+                <img id="bear" src="~/images/done.jpg" alt="">
+                <a href="action/5">Reset?</a>
+            }
+            else if(ViewBag.Happiness > 99 && ViewBag.Fullness > 99 && ViewBag.Energy > 99)
+            {
+                <h1>YAY You have won the game!</h1>
+                <img id="bear" src="~/images/win.gif" alt="">
+                <a href="action/5">Reset?</a>
+            }
+            else
+            {
+                if(ViewBag.result != null && ViewBag.result.Length > 1)
+                {
+                    <h3>@ViewBag.result</h3>
+                }
+            }
+        }
+
+        <div class="buttons">
+            <button class="buts"><a href="action/1">Feed</a></button>
+            <button class="buts"><a href="action/2">Play</a></button>
+            <button class="buts"><a href="action/3">Work</a></button>
+            <button class="buts"><a href="action/4">Sleep</a></button>
+        </div>
+
+       
+
+    </div>
+    
+
+
+
+</body>
+</html>

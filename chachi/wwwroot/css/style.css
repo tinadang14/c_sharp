@@ -1,0 +1,51 @@
+
+#status{
+    display: inline-block;
+    align-items: center;
+    width: 900px;
+    height: 20px;
+}
+
+.green{
+    color: green;
+    width: 200px;
+}
+
+.red{
+    color: red;
+    width: 200px;
+}
+
+.buts{
+    width: 117px;
+    height: 47px;
+    margin-left: 89px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+}
+
+.buttons{
+    width: 970px;
+    height: 120px;
+}
+
+#wrapper{
+    background: #20B2AA; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(white,#20B2AA, #00CED1); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(white,#20B2AA, #00CED1); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(white,#20B2AA, #00CED1); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(white,#20B2AA, #00CED1); /* Standard syntax */
+    width: 970px;
+    display: inline-block;
+    font-family: Arial;
+    margin-left: 36px;
+}
+#bear{
+    height: 350px;
+    width: 350px;
+    margin-bottom: 75px;
+    margin-left: 284px;
+}
+
+
